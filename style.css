@@ -61,14 +61,15 @@ a, button, .card, .nav a, img, .btn {
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  justify-content: flex-start;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
-  margin: 0 auto;
+  max-width: 18400px;
+  margin-left: 0 auto;
 }
 
 .header h1 {
@@ -76,25 +77,32 @@ a, button, .card, .nav a, img, .btn {
   padding: 0;
   display: flex;
   align-items: center;
+  display: flex;
+  justify-content: flex-start; /* sve ide skroz levo */
+  
 }
 
 .logo {
   display: block;
   max-height: 90px;
   transition: transform var(--transition);
+  margin-left: 0;
 }
 .logo:hover { transform: scale(1.05); }
 
 .logo a, h1 a {
   text-decoration: none;
   display: flex;
-  align-items: center;
+  
+  align-items: flex-start;
 }
 
 /* Nav sa animiranom linijom */
 .nav {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  margin-right: 0 auto;
 }
 .nav a {
   color: #fff;
