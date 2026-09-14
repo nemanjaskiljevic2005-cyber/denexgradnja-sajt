@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt — DENEX Gradnja</title>
+  <meta name="description" content="Kontaktirajte DENEX Gradnju — telefon, email, adresa i kontakt forma za upite i ponude." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kontakt — DENEX Gradnja" />
+  <meta property="og:description" content="Pošaljite upit ili nas pozovite." />
+
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1><a href="denex.html"><img src="images/logo.svg" alt="Denex Gradnja" class="logo" /></a></h1>
+      <nav class="nav">
+        <a href="denex.html">Početna</a>
+        <a href="denex.html#onama">O nama</a>
+        <a href="denex.html#services">Usluge</a>
+        <a href="projekti.html">Projekti</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>Kontaktirajte nas</h2>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3 style="font-family:var(--font-heading); letter-spacing:1px; margin-bottom:16px;">DENEX Gradnja</h3>
+        <p><strong>Telefon:</strong> <a href="tel:+381648202409">+381 64 8202 409</a></p>
+        <p><strong>Email:</strong> <a href="mailto:denexgradnja@gmail.com">denexgradnja@gmail.com</a></p>
+        <p><strong>Radno vreme:</strong> Ponedeljak — Subota, 07:00 — 17:00</p>
+        <p style="margin-top:20px; color: var(--color-muted);">
+          Za sva pitanja, ponude i konsultacije, slobodno nas kontaktirajte telefonom, emailom
+          ili preko forme sa stranice. Odgovaramo u najkraćem roku.
+        </p>
+      </div>
+
+      <form class="contact-form" action="mailto:denexgradnja@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="ime" placeholder="Ime i prezime" required />
+        <input type="email" name="email" placeholder="Email adresa" required />
+        <input type="tel" name="telefon" placeholder="Telefon (opciono)" />
+        <textarea name="poruka" placeholder="Vaša poruka..." required></textarea>
+        <button type="submit">Pošalji poruku</button>
+      </form>
+    </div>
+
+    <div class="map-embed">
+      <iframe
+        src="https://www.google.com/maps?q=Beograd&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Lokacija DENEX Gradnja">
+      </iframe>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>DENEX Gradnja</h4>
+        <p>Građevinska firma za visokogradnju, niskogradnju i kompletnu realizaciju projekata.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <a href="mailto:denexgradnja@gmail.com">denexgradnja@gmail.com</a>
+        <a href="tel:+381648202409">+381 64 8202 409</a>
+      </div>
+      <div class="footer-col">
+        <h4>Navigacija</h4>
+        <a href="denex.html#onama">O nama</a>
+        <a href="projekti.html">Projekti</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 DENEX Gradnja. Sva prava zadržana.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
